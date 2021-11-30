@@ -108,7 +108,7 @@ sigmoid 외에도 ReLu, softmax 등 다양한 활성화 함수가 사용됩니�
 
 
 
-<img src="/assets/img/post/2021-11-30-dipingdeeplearning/backprop.PNG" width="20%">
+<img src="/assets/img/post/2021-11-30-dipingdeeplearning/backprop.png" width="20%">
 
  
 
@@ -142,7 +142,7 @@ sigmoid 외에도 ReLu, softmax 등 다양한 활성화 함수가 사용됩니�
 
 입력층과 은닉층 (2개의 층), 출력층으로 구성된 신경망입니다
 
-```
+```python
 import sys, os
 sys.path.append(os.pardir)
 from common import *
@@ -221,7 +221,7 @@ class TwoLayerNet:
 
 신경망에 사용된 계층의 구현입니다
 
-```
+```python
 import numpy as np
 from common import *
 
@@ -290,7 +290,7 @@ class Relu():
 
 활성화 함수의 구현입니다
 
-```
+```python
 import numpy as np
 
 
@@ -363,7 +363,7 @@ def softmax_loss(X, t):
 
 10000개의 data에서 minibatch의 크기를 100으로 설정하였습니다.
 
-```
+```python
 import numpy as np
 import matplotlib.pylab as plt
 from dataset.mnist import load_mnist
