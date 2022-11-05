@@ -2,7 +2,7 @@
 title: 곤충 시각 기관 모방 센서와 인공신경망을 적용한 실내 드론 시스템
 author: JeongHyun Kim, JaeMin Kim, JeongHyun Nam, SangYoon Kim, Daniel Kwak
 date: 2021-11-27 01:15:00 +0900
-categories: [Exhibition, Others]
+categories: [Exhibition,2021년]
 tags: [post, drone, ai, rtos, embedded, arm, tensorflow, kalman, pid, rl] # TAG names should always be lowercase, 띄어쓰기도 금지
 ---
 
