@@ -44,7 +44,7 @@ jobs:
       - name: Bundle config
         run: |
           bundle config path ${{ env.GEMS_PATH }}
-g
+
       - name: Bundle Install
         if: steps.bundle-cache.outputs.cache-hit != 'true'
         run: |
