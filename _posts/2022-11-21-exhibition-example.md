@@ -1,8 +1,8 @@
 ---
 title: 전시회 글양식 
 author: Shin Hyun
-date: 2021-11-21 10:13:00 +0900
-categories: [Exhibition,2021년]
+date: 2022-11-05 15:30:00 +0900
+categories: [Exhibition,2022년]
 tags: [post,shinhyun]     # TAG names should always be lowercase, 띄어쓰기도 금지 
 ---
 
@@ -10,7 +10,9 @@ tags: [post,shinhyun]     # TAG names should always be lowercase, 띄어쓰기�
 # 글 양식 
 
 ### 파일명 
-이 글의 md 파일을 복사하고, 파일명의 날짜, 위의 date 변경 
+
+이 글의 md 파일을 복사 붙여넣기하고, 파일명의 날짜, 위의 date 변경한다. (굳이 다른 글의 md 를 복사하는 것보다는 이 글을 복붙하는 것을 권장합니다.)
+
 
 파일명은 (날짜)-(적당한말).md여야 한다.
 
@@ -48,3 +50,9 @@ bundle exec jekyll s
 로컬 서버를 실행하지 않아도 포스트를 적당히 작성해 풀리퀘를 보내면 된다. 
 
 
+### 참고
+
+이 게시글은 (수동으로) date와 categories 를 변경해주고 있다.  (date는 파일명도 수정해줘야함.)
+전시회 카테고리에 같이 있는 이유는, 동아리 깃헙을 처음 사용해 익숙하지 않은 사람들이 자주 내는 실수인 아래 사항들을 미리 예방할 수 있다. 
+- date / categories 가 틀린 경우를 줄일 수 있다.
+- date가 올해이기 때문에 무언가 문제가 생겼을 때, 비교적 제보를 받기 쉽다. 
