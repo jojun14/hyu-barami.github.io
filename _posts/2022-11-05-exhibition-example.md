@@ -38,16 +38,29 @@ tags에서 shinhyun -> 본인 이름(소문자로)으로 변경
 -------
 ### 결과물 확인 
 Markdown 결과물 확인하는 방법
-- typora를 깐다. https://typora.io/ 
+- typora를 깐다. <a href="https://typora.io" target="_blank">https://typora.io</a>   
 - 혹은 실제 게시글 형식으로 확인하고 싶다면, _posts 에 글을쓰고 서버를 실행해 확인한다
 
 -------
-로컬에서 서버를 실행하는 방법 
+로컬에서 서버를 실행하는 방법 (모르겠으면 안해도 됨.)
 ```
 bundle exec jekyll s 
 ``` 
 를 입력해 서버를 실행할 수 있다. ruby, jem 등등이 깔려 있어야 한다. 
 로컬 서버를 실행하지 않아도 포스트를 적당히 작성해 풀리퀘를 보내면 된다. 
+
+
+-------
+### 제출(게시글 업로드)
+
+이 부분은 글을 따로 작성하였다. 
+아래 글 대로 풀리퀘스트를 보내자. 
+
+<a href="https://hyu-barami.github.io/posts/how-to-post" target="_blank">
+https://hyu-barami.github.io/posts/how-to-post
+</a>
+
+
 
 
 ### 참고
