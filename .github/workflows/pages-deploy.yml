@@ -17,14 +17,20 @@ jobs:
       GEMS_PATH: /tmp/bundle
 
     steps:
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: 2.6.x
-
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
+      - name: Setup Node
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
 
       - name: Bundle Caching
         id: bundle-cache
