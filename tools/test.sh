@@ -69,4 +69,4 @@ bundle exec htmlproofer $DEST \
   --check-html \
   --allow_hash_href \
   --url_ignore $URL_IGNORE \
-  --ignore_empty_alt
+  --ignore_missing_alt
