@@ -68,5 +68,6 @@ bundle exec htmlproofer $DEST \
   --disable-external \
   --check-html \
   --allow_hash_href \
-  --url_ignore $URL_IGNORE
+  --url_ignore $URL_IGNORE \
+  --alt-ignore '/.*/'
 #  --empty_alt_ignore \
