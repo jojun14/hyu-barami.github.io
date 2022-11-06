@@ -3,7 +3,7 @@ title: 전시회 글양식
 author: Shin Hyun
 date: 2022-11-05 15:30:00 +0900
 categories: [Exhibition,2022년]
-tags: [post,shinhyun]     # TAG names should always be lowercase, 띄어쓰기도 금지 
+tags: [post,shinhyun,about-post]     # TAG names should always be lowercase, 띄어쓰기도 금지 
 ---
 
 ------------------------------------------
