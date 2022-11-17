@@ -40,7 +40,7 @@ MQ-3에서 받아온 값을 이용하여 사전 정의된 Level로 이 음료가
 
 ------------------------------------------
 ## 작품 동작 결과
-<img src="/assests/img/post/2022-11-17-drink-detector/mywork.png">
+<img src="/assets/img/post/2022-11-17-drink-detector/mywork.png">
 
 처음에는 소주의 종류를 감별하는 것을 목표로 개발을 하였으나, 센서가 그 정도로 정밀하지 않기에 소주를 구별하는 대신 음주의 정도 측정과 음료의 종류 구별로 목표를 하향하여 진행하게 되었습니다.
 MQ-3 센서를 정밀하게 사용하기 위해서는 Unit Area에서 정밀하게 Reference Sensor로 PPM을 측정해야 하지만 현실적으로 불가능하기 때문에 approximate한 값을 사용하게 되었습니다.
